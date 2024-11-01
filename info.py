@@ -23,11 +23,11 @@ if len(API_ID) == 0:
     exit()
 else:
     API_ID = int(API_ID)
-API_HASH = environ.get('API_HASH', '') #api hash of your telegram id
+API_HASH = environ.get('API_HASH', 'f77d166da7542024c08b457a8fb525c4') #api hash of your telegram id
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '') #bot token from botfather
+BOT_TOKEN = environ.get('BOT_TOKEN', '7580448990:AAGNhdOP0lElmuo88W8R6patZhYLxyL29Mo') #bot token from botfather
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
@@ -68,7 +68,7 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://rebelbotz22:vNcEEoNvSQ33d44K@cluster0.oj1hu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
